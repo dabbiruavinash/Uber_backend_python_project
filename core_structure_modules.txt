@@ -1,0 +1,36 @@
+uber-india-backend/
+│
+├── core/                       # Core application components
+│   ├── __init__.py
+│   ├── exceptions.py           # Custom exceptions
+│   ├── config.py               # Configuration management
+│   ├── logging.py              # Logging setup
+│   ├── utils.py                # Utility functions
+│   └── middleware.py          # Application middleware
+│
+├── domain/                     # Domain modules
+│   ├── booking/                # Booking management
+│   ├── driver/                 # Driver management
+│   ├── passenger/             # Passenger management
+│   ├── payment/               # Payment processing
+│   ├── pricing/               # Dynamic pricing
+│   ├── vehicle/               # Vehicle management
+│   ├── location/              # Location services
+│   ├── trip/                  # Trip management
+│   ├── rating/                # Rating system
+│   ├── notification/          # Notification system
+│   ├── support/               # Customer support
+│   ├── inventory/             # Fleet inventory
+│   ├── surge/                 # Surge pricing
+│   ├── fraud/                 # Fraud detection
+│   ├── analytics/             # Data analytics
+│   ├── loyalty/               # Loyalty programs
+│   ├── compliance/            # Regulatory compliance
+│   ├── scheduling/            # Driver scheduling
+│   └── api/                   # API gateway
+│
+├── tests/                      # Unit and integration tests
+│
+├── requirements.txt            # Dependencies
+├── README.md                   # Project documentation
+└── app.py                      # Application entry point
