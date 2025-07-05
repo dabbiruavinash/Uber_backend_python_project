@@ -1,0 +1,45 @@
+tests/
+├── __init__.py
+├── conftest.py
+├── core/
+│   ├── test_exceptions.py
+│   └── test_config.py
+├── domain/
+│   ├── booking/
+│   │   └── test_booking.py
+│   ├── driver/
+│   │   └── test_driver.py
+│   ├── payment/
+│   │   └── test_payment.py
+│   ├── pricing/
+│   │   └── test_pricing.py
+│   ├── vehicle/
+│   │   └── test_vehicle.py
+│   ├── location/
+│   │   └── test_location.py
+│   ├── trip/
+│   │   └── test_trip.py
+│   ├── rating/
+│   │   └── test_rating.py
+│   ├── notification/
+│   │   └── test_notification.py
+│   ├── support/
+│   │   └── test_support.py
+│   ├── inventory/
+│   │   └── test_inventory.py
+│   ├── surge/
+│   │   └── test_surge.py
+│   ├── fraud/
+│   │   └── test_fraud.py
+│   ├── analytics/
+│   │   └── test_analytics.py
+│   ├── loyalty/
+│   │   └── test_loyalty.py
+│   ├── compliance/
+│   │   └── test_compliance.py
+│   ├── scheduling/
+│   │   └── test_scheduling.py
+│   └── api/
+│       └── test_api.py
+└── integration/
+    └── test_integration.py
